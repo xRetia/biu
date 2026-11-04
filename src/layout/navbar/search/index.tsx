@@ -123,7 +123,7 @@ const SearchInput: React.FC<SearchInputProps> = ({ onFocusChange }) => {
           <div
             ref={panelRef}
             data-react-aria-top-layer="true"
-            className={twMerge(glassMenuClassName, "flex flex-col overflow-hidden")}
+            className={twMerge(glassMenuClassName, "rounded-medium flex flex-col overflow-hidden")}
             style={panelStyle}
           >
             <OverlayScrollbarsComponent className="h-full flex-1 p-2" options={{ scrollbars: { autoHide: "leave" } }}>
